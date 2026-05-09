@@ -1,0 +1,21 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.MukundaKatta/maskprompt",
+  "description": "Redact PII (emails, phones, credit cards, SSNs, IPs, secrets) from text before sending it to an external LLM or log.",
+  "version": "0.1.0",
+  "repository": {
+    "url": "https://github.com/MukundaKatta/maskprompt-mcp",
+    "source": "github"
+  },
+  "websiteUrl": "https://github.com/MukundaKatta/maskprompt-mcp",
+  "packages": [
+    {
+      "registryType": "npm",
+      "identifier": "@mukundakatta/maskprompt-mcp",
+      "version": "0.1.0",
+      "transport": {
+        "type": "stdio"
+      }
+    }
+  ]
+}
